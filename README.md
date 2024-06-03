@@ -1,0 +1,1 @@
+# graphql_sdl_generator
