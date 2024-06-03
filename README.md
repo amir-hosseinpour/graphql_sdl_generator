@@ -55,4 +55,3 @@ The `main()` function handles the command-line arguments and calls the appropria
 ## Notes
 
 - Ensure the `.gql` files are correctly formatted for the script to process them without errors.
-- Customize the `extend_schema_with_custom_elements(schema)` function to add any specific schema extensions as needed.
