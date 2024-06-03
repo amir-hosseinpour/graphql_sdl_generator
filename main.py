@@ -76,7 +76,7 @@ def sdl_to_schema_file(sdl_content, output_file):
 
 def print_help():
     help_text = """
-    Usage: script.py [options] [arguments]
+    Usage: main.py [options] [arguments]
 
     Options:
     -d directory_path output_file.sdl  Read .gql files from the specified directory and write the schema to output_file.sdl
