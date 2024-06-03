@@ -48,26 +48,6 @@ python main.py -f /path/to/file1.gql /path/to/file2.gql output_schema.sdl
 
 ## Script Details
 
-### Functions
-
-- **read_gql_files_from_directory(directory)**
-  - Reads `.gql` files from a given directory and returns their content as a single string.
-
-- **read_gql_files_from_list(file_list)**
-  - Reads `.gql` files from a provided list of file paths and returns their content as a single string.
-
-- **write_schema_to_file(schema_content, output_file)**
-  - Writes the processed schema content to the specified output file.
-
-- **extend_schema_with_custom_elements(schema)**
-  - Placeholder function to add custom schema extensions.
-
-- **sdl_to_python(sdl_content, output_file)**
-  - Processes SDL content, builds the schema, optionally extends it, and writes the final schema to an output file.
-
-- **print_help()**
-  - Prints the help message explaining each switch and its usage.
-
 ### Main Function
 
 The `main()` function handles the command-line arguments and calls the appropriate functions based on the provided switches (`-d`, `-f`, or `-h`).
